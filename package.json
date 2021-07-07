@@ -1,0 +1,23 @@
+{
+    "name": "gta-vc",
+    "publisher": "himanshu007-creator",
+    "displayName": "GTA-VC",
+    "description": "Bring back the ol' days!",
+    "repository": "https://github.com/himanshu007-creator/GTA-VC",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GTA-VC",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GTA-VC-color-theme.json"
+            }
+        ]
+    }
+}
