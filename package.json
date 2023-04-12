@@ -2,7 +2,7 @@
     "name": "gta-vc",
     "publisher": "himanshu007-creator",
     "displayName": "GTA-VC",
-    "description": "Bring back the ol' days!",
+    "description": "Bring back the ol' days! with GTA cice city based theme.",
     "repository": "https://github.com/himanshu007-creator/GTA-VC",
     "version": "0.0.3",
     "engines": {
@@ -11,7 +11,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "// todo",
+    "icon": "./media/preview.png",
     "contributes": {
         "themes": [
             {
