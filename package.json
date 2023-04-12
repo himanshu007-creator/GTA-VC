@@ -2,9 +2,9 @@
     "name": "gta-vc",
     "publisher": "himanshu007-creator",
     "displayName": "GTA-VC",
-    "description": "Bring back the ol' days! with GTA cice city based theme.",
+    "description": "Bring back the ol' days! with GTA vice city inspired theme.",
     "repository": "https://github.com/himanshu007-creator/GTA-VC",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.57.0"
     },
