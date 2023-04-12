@@ -11,7 +11,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "./media/preview.png",
+    "icon": "preview.png",
     "contributes": {
         "themes": [
             {
