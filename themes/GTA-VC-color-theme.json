@@ -1,80 +1,77 @@
 {
-    "name": "Grand Theft Auto Vice City",
+    "name": "GTA Vice City Dark",
+    "type": "dark",
     "colors": {
-        "editor.background": "#2c2b2a",
-        "editor.foreground": "#ffffff",
-        "editor.selectionBackground": "#524949",
-        "editor.selectionHighlightBackground": "#5a534f",
-        "editorLineNumber.foreground": "#adadad",
-        "editorLineNumber.activeForeground": "#ffffff",
-        "editorCursor.foreground": "#ffffff",
-        "editor.lineHighlightBackground": "#383533",
-        "activityBar.background": "#a79c8e",
-        "activityBar.foreground": "#ffffff",
-        "activityBarBadge.background": "#ff0000",
-        "activityBarBadge.foreground": "#ffffff",
-        "sideBar.background": "#2c2b2a",
-        "sideBar.foreground": "#ffffff",
-        "sideBarSectionHeader.background": "#524949",
-        "sideBarSectionHeader.foreground": "#ffffff",
-        "list.hoverBackground": "#524949",
-        "list.focusBackground": "#5a534f",
-        "statusBar.background": "#a79c8e",
-        "statusBar.foreground": "#ffffff",
-        "statusBar.noFolderBackground": "#a79c8e",
-        "statusBar.noFolderForeground": "#ffffff",
-        "titleBar.activeBackground": "#a79c8e",
-        "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#2c2b2a",
-        "titleBar.inactiveForeground": "#ffffff"
+        "activityBar.background": "#2c2c2c",
+        "activityBar.foreground": "#f195ac",
+        "activityBarBadge.background": "#be1fa9",
+        "activityBarBadge.foreground": "#000000",
+        "sideBar.background": "#2c2c2c",
+        "sideBar.foreground": "#f4afc2",
+        "list.activeSelectionBackground": "#b28bc0",
+        "list.inactiveSelectionBackground": "#b28bc0",
+        "list.hoverBackground": "#00660033",
+        "tab.activeBackground": "#4dca1c52",
+        "tab.activeForeground": "#d11443",
+        "tab.inactiveBackground": "#2c2c2c",
+        "tab.inactiveForeground": "#f195ac",
+        "editor.background": "#212121",
+        "editor.foreground": "#f16487",
+        "editorLineNumber.foreground": "#b28bc0",
+        "editorCursor.foreground": "#f195ac",
+        "editor.selectionBackground": "#059c0583",
+        "editor.selectionForeground": "#f700ff",
+        "statusBar.background": "#2c2c2c",
+        "statusBar.foreground": "#f195ac",
+        "statusBar.noFolderBackground": "#af16a2be",
+        "statusBar.noFolderForeground": "#f195ac"
     },
     "tokenColors": [
         {
-            "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#bdc2c8"
+                "foreground": "#b28bc0"
             }
         },
         {
-            "name": "String",
+            "scope": "variable.other",
+            "settings": {
+                "foreground": "#f4afc2"
+            }
+        },
+        {
             "scope": "string",
             "settings": {
-                "foreground": "#ffa500"
+                "foreground": "#ff00dd"
             }
         },
         {
-            "name": "Keyword",
             "scope": "keyword",
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#00a8ff"
             }
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
+            "scope": "textLink.activeForeground",
             "settings": {
-                "foreground": "#d0a030"
-            }
-        },
-        {
-            "name": "Function",
-            "scope": "entity.name.function",
-            "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#f195ac"
             }
         }
     ],
-    "semanticHighlighting": true,
-    "colorschemes": {
-        "headerForeground": "#ffffff",
-        "headerBackground": "#a79c8e",
-        "borderColor": "#a79c8e",
-        "dropdownBackground": "#2c2b2a",
-        "dropdownBorder": "#a79c8e",
-        "dropdownForeground": "#ffffff"
+    "semanticTokenColors": {
+        "attribute.name": "#00a8ff",
+        "variable.other.object.property": "#f195ac",
+        "string": "#0266c8",
+        "comment": "#b28bc0",
+        "keyword": "#00a8ff",
+        "storage.type": "#00a8ff",
+        "punctuation": "#f195ac",
+        "entity.name.function": "#00a8ff",
+        "entity.name.tag": "#00a8ff",
+        "support.class": "#f195ac",
+        "support.constant": "#00a8ff",
+        "support.variable.property": "#0266c8",
+        "meta.property-name": "#f195ac"
     },
-    "iconTheme": {
-        "path": "/path/to/rockstar.png"
-    }
+    "semanticHighlighting": true
 }

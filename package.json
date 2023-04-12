@@ -4,13 +4,14 @@
     "displayName": "GTA-VC",
     "description": "Bring back the ol' days!",
     "repository": "https://github.com/himanshu007-creator/GTA-VC",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.57.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "// todo",
     "contributes": {
         "themes": [
             {
